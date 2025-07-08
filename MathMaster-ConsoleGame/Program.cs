@@ -2,7 +2,6 @@
 
 string name;
 DateTime date = DateTime.UtcNow;
-List<string> games = new();
 
 name = Helpers.GetName();
 

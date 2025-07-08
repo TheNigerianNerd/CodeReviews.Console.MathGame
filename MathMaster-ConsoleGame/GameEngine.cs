@@ -260,9 +260,6 @@ internal class GameEngine
     internal void RandomGame(GameDifficulty difficulty, int rounds = 1)
     {
         var random = new Random();
-        int firstNumber = 0;
-        int secondNumber = 0;
-        int score = 0;
 
         int randomGame = 0;
         for (int i = 0; i < 5; i++)
@@ -290,9 +287,5 @@ internal class GameEngine
                     break;
             }
         }
-
-        //gameTimer.Start();
-
-        //gameTimer.Start();
     }
 }
